@@ -19,4 +19,4 @@ El usuario desea retirar 380 euros y se le da:
 - 1 billete de 10
 
 ## Diagrama del ejercicio
-![Diagrama del cajero automático](https://drive.google.com/file/d/1psKyY3BZquFsr_e_riXknCRSFqN74-Sw/view?usp=share_link)
+![Diagrama del cajero automático](/ProgramaCajero.png)
