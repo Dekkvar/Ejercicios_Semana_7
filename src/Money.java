@@ -3,17 +3,7 @@ public class Money {
     int bill[] = {200, 100, 50, 20, 10, 5};
     int cashBack[] = {0, 0, 0, 0, 0, 0};
 
-    public String cash() {
-        int amount = 0;
-        System.out.println("\nIntroduce la cantidad a retirar:");
-        do {
-            Input num = new Input();
-            amount = num.num();
-            if (amount % 5 != 0) {
-                System.out.println("Cantidad inválida. Por favor introduzca una cantidad acabada en 0 o en 5:");
-            }
-        } while (amount % 5 != 0);
-
+    public String cash(int amount) {
         money = amount;
 
         do {
