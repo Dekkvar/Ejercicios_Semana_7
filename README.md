@@ -19,4 +19,30 @@ El usuario desea retirar 380 euros y se le da:
 - 1 billete de 10
 
 ## Diagrama del ejercicio
+### Diagrama de flujo
 ![Diagrama del cajero automático](/ProgramaCajero.png)
+
+### Diagrama de clase
+```mermaid
+classDiagram
+    class Main
+    class Input{
+      +Scanner input
+      +text()
+      +num()
+    }
+    class Action{
+      +String action
+      +options():String
+    }
+    class Money{
+      +int money
+      +Array[] bill
+      +Array[] cashBack
+      +cash(amount):String
+    }
+    Input --> Action
+    Input --> Main
+    Action --> Main
+    Money --> Main
+```
